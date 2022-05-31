@@ -1,0 +1,9 @@
+! 2022-05-30 https://offerup.com
+||www.bing.com/th$image
+offerup.com##.jss417
+offerup.com##a.jss394.jss414.jss192.jss191:nth-of-type(6)
+offerup.com##.jss3135
+
+! 2022-05-31 https://offerup.com
+offerup.com##div>a:has-text(AREA-51)
+
