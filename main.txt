@@ -7,3 +7,26 @@ offerup.com##.jss3135
 ! 2022-05-31 https://offerup.com
 offerup.com##div>a:has-text(AREA-51)
 
+! 2021-10-29 https://www.ebay.com
+www.ebay.com##.pc-dweb__dialog-content
+
+! 2022-06-03 https://offerup.com
+offerup.com##div>a:has-text(AREA-51)
+
+! 2022-07-20 https://offerup.com
+||www.bing.com/th$image
+
+! 2023-08-20 https://slickdeals.net
+slickdeals.net##.welcomeToast
+slickdeals.net##.modal-modern.modal
+
+youtube.com##:xpath(//ytd-rich-item-renderer[descendant::span[contains(@aria-label,"Shorts")]])
+
+!This part removes the "New Row" object. kind of like removing the new paragraph in word editors.
+
+youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
+
+!This part limits the number of videos per row. go ahead and play with the number.
+
+youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 6 !important;)
+
