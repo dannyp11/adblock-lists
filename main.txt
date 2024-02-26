@@ -20,21 +20,6 @@ offerup.com##div>a:has-text(AREA-51)
 slickdeals.net##.welcomeToast
 slickdeals.net##.modal-modern.modal
 
-! Suggested for you
-www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
-! Unlabelled Suggested posts (with a Follow button)
-www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) :is(h3,h4) [role=button]:has-text(/Follow|Join/):upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
-! Use only if you actually have these: Suggested posts with the label next to the post date
-www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has-text(Suggested for you)
-! People You May Know
-www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) [aria-label="See all"][href="/friends/"]:upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
-! Suggested groups
-www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) [aria-label="See more groups"][href="/groups/discover/"]:upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
-! Reels and short videos
-www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) [aria-label="See more"][href="/reel/?s=ifu_see_more"]:upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
-! Suggested pages
-www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) [aria-label="Suggested pages"]:upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
-
 ---Mobile---
 ! Suggested for you (mobile)
 m.facebook.com##[data-mcomponent="MScreen"]>div[class="m"]>div:has-text(Suggested for you)
